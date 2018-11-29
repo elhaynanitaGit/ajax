@@ -28,10 +28,13 @@ function actualizar()
             + student.first_name
             + "</td><td>"
             + student.last_name
+            + "</td><td>"
+            + "<button type='button'>Eliminar</button>"
             + "</td></tr>";
           document.getElementsByTagName('tbody')[0].innerHTML += html;
 
-          // var row = document.createElement("tr");
+
+          //var row = document.createElement("tr");
           // var idCell = document.createElement("td");
           // var firstNameCell = document.createElement("td");
           // var lastNameCell = document.createElement("td");
